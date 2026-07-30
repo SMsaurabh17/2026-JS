@@ -34,3 +34,5 @@ console.log(!(a = c))
 
 // 4.Ternary operator (it is used when there is only one condition)
 10 > 5 ? console.log("Greater") : console.log("Smaller")
+
+age === 18 ? console.log("Applicable for Driving License") : console.log("Not Applicable")
