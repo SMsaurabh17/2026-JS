@@ -73,3 +73,13 @@ console.log(state.slice(-6,-3))
 // splices
 // startIndex,numberOfElementToBeDeleted
 // console.log(state.splice(1,3))
+
+// flat ----- convert multidimensional array to single dimensional array
+let d = [['mahrashtra','nagpur'],['rajasthan','jaipur'],['karnataka','banglore']]
+console.log(d.flat())
+
+// join ----- it gives string
+console.log(d.join(" "))
+
+// fill
+console.log(d.fill("-",1,2))
