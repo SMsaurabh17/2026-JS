@@ -82,4 +82,4 @@ console.log(d.flat())
 console.log(d.join(" "))
 
 // fill
-console.log(d.fill("-",1,2))
+console.log(d.fill("-",1,2))                    //[ [ 'mahrashtra', 'nagpur' ], '-', [ 'karnataka', 'banglore' ] ]
