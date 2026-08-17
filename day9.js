@@ -14,24 +14,39 @@ let greater = numb.filter(function(el,index,arr){
 })
 console.log(greater)
 
-// reduce
+// reduce (return the total value of the array )
 let numb2 = [11,22,33]
 let Total = numb2.reduce(function(el,acc){
     return acc + el
 })
 console.log(Total)
 
-// foreach
+// foreach (it does not return any value and works with each elements in the lists)
 let state = ['himachal-pradesh','maharashtra','tamil-nadu','karnataka','madhya-pradesh'] 
 let newN = state.forEach(function(el,index,arr){
     console.log(`welcome to ${el}`)
 })
 
+// findIndex (returns the first matching element in the array)
+let index = numb.findIndex(function(el,arr){
+    return el > 70
+})
+console.log(index)
 
-// findIndex
+// find (checks whether the given element is present in the list)
+let findd = state.find(function(el,index,arr){
+    return el === "tamil-nadu"
+})
+console.log(findd)
 
-// find
+// every (checks whether all the elements in array are smaller than 20 and gives boolean value)
+let everyy = numb.every(function(el,index,arr){
+    return el < 20
+})
+console.log(everyy)
 
-// every
-
-// some 
+// some (checks whether all the elements in array are smaller than 20 and gives boolean value)
+let somee = numb.some(function(el,index,arr){
+    return el < 20
+})
+console.log(somee)
