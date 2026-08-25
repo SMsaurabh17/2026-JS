@@ -1,4 +1,8 @@
 // Array and object Destructuring
+//destructuring  (unpacking values from arrays or objects into variables)
+// Destructuring is a JavaScript feature that allows you to extract values from 
+// arrays or objects and store them into variables in a clean and readable way.
+// Instead of accessing values one by one, destructuring lets you do it in a single line.
 
 // Array
 let arr1 = [1,2,3,4,'Ram','ganesh']
