@@ -18,7 +18,7 @@ console.log(greater)
 let numb2 = [11,22,33]
 let Total = numb2.reduce(function(el,acc){
     return acc + el
-})
+},0)
 console.log(Total)
 
 // foreach (it does not return any value and works with each elements in the lists)
