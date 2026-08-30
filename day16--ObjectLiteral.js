@@ -69,3 +69,28 @@ console.log(ganesh)
 
 // 5.class with set and get keyword
 // set as property using set and get word
+class student3{
+    set setname(fn){
+        this.name = fn
+    }
+    set setsurname(ln){
+        this.surname = ln
+    }
+    display(){
+        console.log('This is using set & get keyword')
+    }
+    get setname(){
+       return this.name
+    }
+    get setsurname(){
+        return this.surname
+    }
+}
+
+let farhaan = new student3()
+farhaan.name = 'farhaan'
+farhaan.surname = 'khan'
+farhaan.display()
+
+console.log(farhaan.setname)
+console.log(farhaan.setsurname)
