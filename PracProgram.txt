@@ -1,0 +1,14 @@
+// Write a function that takes an array of numbers as input and returns the sum of all positive numbers in the array.
+// Write a function that takes an array of strings and returns a new array with only the strings that have a length greater than 5.
+// Write a function to find the maximum number in an array of numbers.
+// Write a function to count the number of vowels (a, e, i, o, u) in a given string.
+// Write a function to check if a given string is a palindrome (reads the same backward as forward).
+// Write a function to capitalize the first letter of each word in a given sentence.
+// Write a function to reversethe string in a given sentence
+// Write a function to reverse words in a given sentence.
+// program to delete duplicate charactor from string
+// Write a function to capitalize the first letter of each word in a given sentence.
+// sentance = "my name is dipanshu"
+
+// 5. Fibonacci Series:
+//  Generate the first n numbers in the Fibonacci sequence.
